@@ -12,12 +12,17 @@ export default function Post({ post }) {
         <p>{post.frontmatter.excerpt}</p>
         <p>{post.frontmatter.tech}</p>
         <div className="card-link">
-          <a href={`${post.frontmatter.demo}`} target="_blank" className="btn">
+          <a
+            href={`${post.frontmatter.demo}`}
+            rel="noopener noreferrer"
+            target="_blank"
+            className="btn"
+          >
             Live App
           </a>
 
           <Link href={`${post.frontmatter.github}`}>
-            <a target="_blank" className="btn">
+            <a target="_blank" rel="noopener noreferrer" className="btn">
               GitHub
             </a>
           </Link>
