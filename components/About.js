@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 
 const About = () => {
   return (
@@ -17,34 +18,43 @@ const About = () => {
         <h1 className="large"> Current Skills</h1>
         <div className="grid-4 skills">
           <div>
-            <img src="/image/html.png" /> <h2>HTML</h2>
+            <Image width={500} height={500} src="/image/html.png" />{" "}
+            <h2>HTML</h2>
           </div>
           <div>
-            <img src="/image/css.png" /> <h2>CSS</h2>
+            <Image width={500} height={500} src="/image/css.png" /> <h2>CSS</h2>
           </div>
           <div>
-            <img src="/image/js.png" /> <h2>JavaScript</h2>
+            <Image width={500} height={500} src="/image/js.png" />{" "}
+            <h2>JavaScript</h2>
           </div>
           <div>
-            <img src="/image/sass.png" /> <h2>SASS</h2>
+            <Image width={500} height={500} src="/image/sass.png" />{" "}
+            <h2>SASS</h2>
           </div>
           <div>
-            <img src="/image/tailwind-css.png" /> <h2>Tailwind CSS</h2>
+            <Image width={500} height={500} src="/image/tailwind-css.png" />{" "}
+            <h2>Tailwind CSS</h2>
           </div>
           <div>
-            <img src="/image/node-js.png" /> <h2>Node JS</h2>
+            <Image width={500} height={500} src="/image/node-js.png" />{" "}
+            <h2>Node JS</h2>
           </div>
           <div>
-            <img src="/image/mongodb.png" /> <h2>MongoDB</h2>
+            <Image width={500} height={500} src="/image/mongodb.png" />{" "}
+            <h2>MongoDB</h2>
           </div>
           <div>
-            <img src="/image/react-js.png" /> <h2>React</h2>
+            <Image width={500} height={500} src="/image/react-js.png" />{" "}
+            <h2>React</h2>
           </div>
           <div>
-            <img src="/image/nextjs.png" /> <h2>NextJs</h2>
+            <Image width={500} height={500} src="/image/nextjs.png" />{" "}
+            <h2>NextJs</h2>
           </div>
           <div>
-            <img src="/image/strapi.png" /> <h2>Strapi</h2>
+            <Image width={500} height={500} src="/image/strapi.png" />{" "}
+            <h2>Strapi</h2>
           </div>
         </div>
       </div>

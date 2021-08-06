@@ -1,5 +1,5 @@
 import React from "react";
-import dynamic from "next/dynamic";
+import Image from "next/image";
 
 const Header = () => {
   return (
@@ -15,17 +15,23 @@ const Header = () => {
           rel="noopener noreferrer"
           target="_blank"
         >
-          <img src="/image/github.png" alt="" />
+          <Image src="/image/github.png" alt="" width={500} height={500} />
         </a>
         <a
           href="https://www.linkedin.com/in/dayshawn-terry/"
           rel="noopener noreferrer"
           target="_blank"
+          className="mx-4"
         >
-          <img className="mx-4" src="/image/linkedin-app.png" alt="" />
+          <Image
+            src="/image/linkedin-app.png"
+            alt=""
+            width={500}
+            height={500}
+          />
         </a>
         <a href="dayshawn2.pdf" rel="noopener noreferrer" target="_blank">
-          <img src="/image/resume.png" />
+          <Image src="/image/resume.png" width={500} height={500} />
         </a>
       </div>
     </header>
