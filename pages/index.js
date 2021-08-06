@@ -8,7 +8,7 @@ import { useEffect, useRef, useState } from "react";
 import Header from "../components/Header";
 import About from "../components/About";
 import Posts from "../components/Posts";
-import Footer from "../components/footer";
+
 import NET from "vanta/dist/vanta.net.min";
 import * as THREE from "three";
 
