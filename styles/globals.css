@@ -237,7 +237,7 @@ header img {
 
 @media (max-width: 500px) {
   .header-content {
-    padding-top: 40%;
+    padding-top: 20%;
   }
 
   .header-content h1,
