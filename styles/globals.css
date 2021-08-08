@@ -237,11 +237,16 @@ header img {
 
 @media (max-width: 500px) {
   .header-content {
-    padding-top: 50%;
+    padding-top: 40%;
   }
 
   .header-content h1 {
     font-size: 2rem;
+  }
+
+  header img {
+    width: 3.5rem;
+    height: 3.5rem;
   }
   .grid-4 {
     grid-template-columns: repeat(2, 1fr);
