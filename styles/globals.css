@@ -240,8 +240,9 @@ header img {
     padding-top: 40%;
   }
 
-  .header-content h1 {
-    font-size: 2rem;
+  .header-content h1,
+  .large {
+    font-size: 2.5rem;
   }
 
   header img {
@@ -258,5 +259,13 @@ header img {
   }
   .card img {
     height: 300px;
+  }
+  .skills img {
+    width: 3rem;
+    height: 3rem;
+  }
+  .skills h2,
+  .skills h3 {
+    font-size: 1.5rem;
   }
 }
