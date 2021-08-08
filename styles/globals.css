@@ -214,7 +214,7 @@ ol {
   color: #fff;
 }
 .header-content h1 {
-  font-size: 5rem;
+  font-size: 4rem;
 }
 .header-content h2 {
   font-size: 4rem;
@@ -236,8 +236,12 @@ header img {
 }
 
 @media (max-width: 500px) {
+  .header-content {
+    padding-top: 50%;
+  }
+
   .header-content h1 {
-    font-size: 3rem;
+    font-size: 2rem;
   }
   .grid-4 {
     grid-template-columns: repeat(2, 1fr);
