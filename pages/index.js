@@ -9,43 +9,15 @@ import Header from "../components/Header";
 import About from "../components/About";
 import Posts from "../components/Posts";
 
-import NET from "vanta/dist/vanta.net.min";
-import * as THREE from "three";
-
 export default function Home({ posts }) {
-  const [vantaEffect, setVantaEffect] = useState(0);
-  const vantaRef = useRef(null);
-  useEffect(() => {
-    if (!vantaEffect) {
-      setVantaEffect(
-        NET({
-          el: vantaRef.current,
-          THREE,
-          mouseControls: true,
-          touchControls: true,
-          gyroControls: false,
-          minHeight: 200.0,
-          minWidth: 200.0,
-          scale: 1.0,
-          scaleMobile: 1.0,
-          backgroundColor: 0x1558a0,
-          color: 0xd0d96,
-          backgroundAlpha: 0.88,
-        })
-      );
-    }
-    return () => {
-      if (vantaEffect) vantaEffect.destory();
-    };
-  }, [vantaEffect]);
   return (
     <div>
       <Head>
         <title>Dayshawn Terry</title>
       </Head>
-      <div ref={vantaRef}>
-        <Header />
-      </div>
+
+      <Header />
+
       <Posts posts={posts} />
       <About />
     </div>

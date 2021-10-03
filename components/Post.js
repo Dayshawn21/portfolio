@@ -4,12 +4,18 @@ import Image from "next/image";
 export default function Post({ post }) {
   return (
     <div className="card my-1">
-      <div>
+      <div
+        style={{
+          position: "relative",
+          height: "16rem",
+          width: "auto",
+        }}
+      >
         <Image
           src={post.frontmatter.cover_image}
           alt=""
-          width={500}
-          height={500}
+          layout="fill"
+          objectFit="contain"
         />
       </div>
       <div>

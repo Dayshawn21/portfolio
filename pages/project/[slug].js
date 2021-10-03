@@ -14,7 +14,9 @@ const Projects = ({
   return (
     <div className="container">
       <div className="card card-page">
-        <Image src={cover_image} alt="" width={500} height={500} />
+        <div className="h-20 w-auto relative">
+          <Image src={cover_image} alt="" layout="fill" objectFit="contain" />
+        </div>
         <div className="post-body">
           <h1 className="post-title text-center">{title}</h1>
           <div dangerouslySetInnerHTML={{ __html: marked(content) }}></div>

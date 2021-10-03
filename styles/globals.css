@@ -24,10 +24,6 @@ a {
   text-align: center;
 }
 
-img {
-  width: 100%;
-  border-radius: 10px;
-}
 /* Text Styles*/
 .x-large {
   font-size: 4rem;
@@ -166,10 +162,6 @@ header a {
   background: #fff;
 }
 
-.card img {
-  height: 400px;
-}
-
 .card-page {
   padding: 15px 30px;
 }
@@ -204,8 +196,12 @@ ol {
   line-height: 2.3;
 }
 .header-home {
-  height: 75vh;
+  height: 85vh;
   width: 100vw;
+  background-color: steelblue;
+}
+.about {
+  background-color: steelblue;
 }
 
 .header-content {
