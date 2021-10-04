@@ -101,6 +101,10 @@ a {
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 1rem;
 }
+.grid-3 {
+  display: flex;
+  justify-content: center;
+}
 .grid-4 {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
@@ -196,8 +200,6 @@ ol {
   line-height: 2.3;
 }
 .header-home {
-  height: 85vh;
-  width: 100vw;
   background-color: steelblue;
 }
 .about {
@@ -232,10 +234,6 @@ header img {
 }
 
 @media (max-width: 500px) {
-  .header-content {
-    padding-top: 20%;
-  }
-
   .header-content h1,
   .large {
     font-size: 2rem;
